@@ -3,9 +3,9 @@
 
 1. Programming Language and Libs:
  
- - *This project is written in Python2, please verify your version of python (especially when using jupyter notebook)
+ *This project is written in Python2, please verify your version of python (especially when using jupyter notebook)
  
- - *Libs used: cPickle, Tensorflow, numpy, PIL, scipy
+ *Libs used: cPickle, Tensorflow, numpy, PIL, scipy
 
 
 2. Brief Intro
@@ -48,7 +48,9 @@ cd resnet_train (res-20) or resnet56_train (res-56)
 run resnet20_Script.ipynb (res-20) or Script.ipynb (res-56)
 
 5. Tensorboard Support for Feature Map
+
 In resnet, resnet56, and vgg_trans, we have image_show.py document for extracting feature maps.
+
 Simply Run Code as follow:
 
 				python image_show.py
